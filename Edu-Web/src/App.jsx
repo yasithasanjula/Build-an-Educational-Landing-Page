@@ -6,6 +6,7 @@ import About from './Components/About'
 import Courses from './Components/Courses'
 import Reviews from './Components/Reviews'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -35,6 +36,8 @@ function App() {
           </div>
           
         </main>
+
+        <Footer />
       </div>
     </>
   )

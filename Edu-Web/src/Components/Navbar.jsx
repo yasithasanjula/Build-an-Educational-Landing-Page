@@ -38,7 +38,7 @@ const Navbar = () => {
                     <AiOutlineMenu size={22}/>
                 </div>
              </div>
-        </div>
+        </div> 
 
         <div className={`${
             menu ? 'tramslate-x-0' : '-translate-x-full'
