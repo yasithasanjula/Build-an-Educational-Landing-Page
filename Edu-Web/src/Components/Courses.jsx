@@ -1,8 +1,25 @@
 import React from 'react'
+import Heading from '../layout/Heading'
+import WebImg from '../assets/web-dev.svg'
+import appImg from '../assets/App-dev.svg'
+import graphicImg from '../assets/graphic.svg'
+import digitalImg from '../assets/digital.svg'
+import CoursesCard from '../layout/CoursesCard'
 
 const Courses = () => {
   return (
-    <div>Courses</div>
+    <div className='min-h-screen flex flex-col items-center md:px-32 px-5 my-10'>
+        <Heading title1='Our' title2='Courses' />
+
+        <div>
+            <CoursesCard img={WebImg} title='Web Development'/>
+            <CoursesCard img={appImg} title='App Development'/>
+            <CoursesCard img={graphicImg} title='Graphic Designer'/>
+            <CoursesCard img={digitalImg} title='Digital Marketing'/>
+
+        </div>
+
+    </div>
   )
 }
 
