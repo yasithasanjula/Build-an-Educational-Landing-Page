@@ -7,9 +7,13 @@ const CoursesCard = (props) => {
             <img src={props.img} alt="img" />
         </div>
         <div>
-            <h3>{props.title}</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur 
-                adipisicing elit. Modi, aspernatur?</p>
+            <h3 className='font-semibold text-lg text-center my-5'>
+                {props.title}
+            </h3>
+            <p className='text-lightText text-center md:text-start'>
+                Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Modi, aspernatur?
+            </p>
         </div>
     </div>
   )

@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import About from './Components/About'
 import Courses from './Components/Courses'
+import Reviews from './Components/Reviews'
+import Contact from './Components/Contact'
 
 function App() {
 
@@ -23,6 +25,15 @@ function App() {
           <div id='courses'>
             <Courses/>
           </div>
+
+          <div className='reviews'>
+            <Reviews/>
+          </div>
+
+          <div className='contact'>
+            <Contact/>
+          </div>
+          
         </main>
       </div>
     </>

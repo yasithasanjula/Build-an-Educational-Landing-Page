@@ -11,7 +11,7 @@ const Courses = () => {
     <div className='min-h-screen flex flex-col items-center md:px-32 px-5 my-10'>
         <Heading title1='Our' title2='Courses' />
 
-        <div>
+        <div className='flex flex-wrap justify-center gap-6 mt-4'>
             <CoursesCard img={WebImg} title='Web Development'/>
             <CoursesCard img={appImg} title='App Development'/>
             <CoursesCard img={graphicImg} title='Graphic Designer'/>
