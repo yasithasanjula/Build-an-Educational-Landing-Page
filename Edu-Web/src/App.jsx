@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import About from './Components/About'
+import Courses from './Components/Courses'
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
 
           <div id='about'>
             <About/>
+          </div>
+
+          <div id='courses'>
+            <Courses/>
           </div>
         </main>
       </div>
